@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://circleci.com/gh/rexben001/ml-kubernetes)
+[![CircleCI](https://circleci.com/gh/rexben001/ml-kubernetes.svg?style=svg)](https://circleci.com/gh/rexben001/ml-kubernetes)
 
 ## Project Overview
 
