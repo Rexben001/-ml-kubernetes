@@ -8,10 +8,13 @@
 # dockerpath=<your docker ID/path>
 dockerpath=rexben/machine-learning
 
-# Step 2:  
+# make username dynamic by passing it as a parameter 
+echo "username: $1"
+
+# # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
-docker login --username=rexben
+docker login --username=$1
 docker tag machine-learning $dockerpath
 
 # Step 3:
